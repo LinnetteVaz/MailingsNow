@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
   <head>
-    <title>compra realizada_invex</title>
+    <title>59C Pago De Servicio</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -95,8 +95,8 @@
                           >
                             Se ha realizado exitosamente el pago de tu factura
                             <br />
-                            <strong>$[nombre_del_servicio]</strong> y se
-                            encuentra <strong>$[status]</strong>.
+                            <strong>${nombre_servicio}</strong> y se encuentra
+                            <strong>${estatus}</strong>.
                           </p>
 
                           <p
@@ -149,7 +149,7 @@
                               text-align: right;
                             "
                           >
-                            $[nombre_del_servicio]
+                            ${nombre_servicio}
                           </p>
                         </td>
                       </tr>
@@ -176,7 +176,7 @@
                               text-align: right;
                             "
                           >
-                            $[banco_de_nombre_proveedor_del_servicio]
+                            ${banco_nombre_proveedor_servicio}  
                           </p>
                         </td>
                       </tr>
@@ -203,7 +203,7 @@
                               text-align: right;
                             "
                           >
-                            $[numero_de_referencia
+                            ${numero_referencia}  
                           </p>
                         </td>
                       </tr>
@@ -223,7 +223,7 @@
                               text-align: center;
                             "
                           >
-                            $[servicio]
+                            ${servicio}  
                           </p>
                         </td>
                       </tr>
@@ -250,7 +250,7 @@
                               text-align: right;
                             "
                           >
-                            $[institucion_financiera]
+                            ${institución_financiera}
                           </p>
                         </td>
                       </tr>
@@ -277,7 +277,7 @@
                               text-align: right;
                             "
                           >
-                            $[producto]
+                            ${producto}
                           </p>
                         </td>
                       </tr>
@@ -305,7 +305,7 @@
                               text-align: right;
                             "
                           >
-                            $[dd/mm/aaaa]-[hh:mm]
+                            ${fecha} - ${hora}
                           </p>
                         </td>
                       </tr>
@@ -332,7 +332,7 @@
                               text-align: right;
                             "
                           >
-                            $[monto_facturado]
+                            ${monto_facturado}
                           </p>
                         </td>
                       </tr>
@@ -359,7 +359,7 @@
                               text-align: right;
                             "
                           >
-                            $[comision]
+                            ${comision}
                           </p>
                         </td>
                       </tr>
@@ -386,7 +386,7 @@
                               text-align: right;
                             "
                           >
-                            $[total]
+                            ${total}
                           </p>
                         </td>
                       </tr>

@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
   <head>
-    <title>compra realizada_invex</title>
+    <title>49C Confirmación Configuracion NIP</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -94,9 +94,11 @@
                           >
                             Se ha cambiado con éxito el NIP de tu
                             <strong>Tarjeta de Débito Física Now</strong> <br />
-                            <strong>terminación [XXXX].</strong> Tu nuevo NIP se
-                            activará posterior a la <br />primera compra
-                            realizada en alguno de los siguientes comercios:
+                            <strong>terminación ${terminacion_tarjeta}.</strong>
+                            Tu nuevo NIP se activará <br />posterior a la
+                            primera compra realizada en alguno de los siguientes
+                            <br />
+                            comercios:
                           </p>
                           <p
                             style="
@@ -167,7 +169,7 @@
                               text-align: right;
                             "
                           >
-                            $[dd/mm/aaaa]
+                            ${fecha}
                           </p>
                         </td>
                       </tr>
@@ -194,7 +196,7 @@
                               text-align: right;
                             "
                           >
-                            $[hh:mm]
+                            ${hora}
                           </p>
                         </td>
                       </tr>
